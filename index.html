@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Portfolio</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+
+  <body style="background-color: #1a3765; z-index: 0"  data-spy="scroll" data-target="#mainNavbar" data-offset="70" >
+    <!-- Navbar -->
+    <header>
+      <nav class="navbar navbar-expand-lg fixed-top bg-transparent" id="mainNavbar" >
+        
+        <div class="container">
+          <a class="navbar-brand pt-3" href="#">
+            <h4 class="fs-sm-1" style="color: #FFC107;">MY PORTOFOLIO</h4>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto text-center">
+              <li class="nav-item">
+                <a class="nav-link m-2" href="#Beranda">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link m-2" href="#About">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link m-2" href="#project">Project</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mt-2" href="#contact">Contact</a>
+              </li>
+            
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Akhir Navbar -->
+    
+    <!-- section  beranda profil -->
+    <section class="Beranda text-center" id="Beranda">
+      <div class="pt-5" data-aos="zoom-in-up" data-aos-delay="250"> 
+        <img
+          src="image/fotoprofil.jpg"
+          class="rounded-circle img-thumbnail"
+          width="200"
+          alt="Aryadil Diangka"
+        />
+      </div>
+
+      <div class="display-4 text-light pt-1">
+         <h2 class="intro" data-aos="fade-right" data-aos-delay="250">Hi I'm Aryadil Diangka</h2>
+        <h4 class="text-uppercase" data-aos="fade-left" data-aos-delay="250">Web Developer</h4>
+       <h4 data-aos="fade-up" data-aos-delay="250">  <span id="slogan" class="text-uppercase pt-0" ></span></h4>
+      </div>
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"></script>
+    <script>
+        var typed = new Typed("#slogan",{
+            strings : ["Developing Code with Passion and Expertise ", "LET'S BUILD SOMETHING AMAZING TOGETHER"],
+            typeSpeed: 100,
+            loop: true,
+            backDelay: 350,
+            
+        })
+    </script>
+    </section>
+    <!-- akhir section beranda profil -->
+    <svg id="About" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 310">
+      <path
+        fill="#ffffff"
+        fill-opacity="1"
+        d="M0,32L60,64C120,96,240,160,360,181.3C480,203,600,181,720,154.7C840,128,960,96,1080,90.7C1200,85,1320,107,1380,117.3L1440,128L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
+      ></path>
+    </svg>
+
+    <!-- Section about -->
+    <section class="about">
+      <h2 class="text-uppercase text-center" data-aos="zoom-out" data-aos-delay="250">About</h2>
+      <div class="row  pt-4 m-2">
+        <div class="col-md-6 col-left" style="text-align: right;" data-aos="fade-right" data-aos-delay="250">
+          <p>
+            I am a Bachelor's student in the Faculty of Computer Science at Esa Unggul University. I possess strong teamwork skills and take responsibility for any issues that arise. I have excellent communication skills, both in oral presentations and in writing.
+          </p>
+        </div>
+        <div class="col-md-6" data-aos="fade-left" data-aos-delay="250">
+          <p>
+            I am passionate about learning and continuously developing myself in the field of Informatics. I am ready to apply my knowledge and skills as a Computer Science student to become a high-quality professional.
+          </p>
+        </div>
+      </div>
+      <h2 class="text-center pt-5" data-aos="zoom-out-down" data-aos-delay="250">Skill Overview</h2>
+      <p class="text-center pe-5 ps-5 pt-2" data-aos="zoom-in" data-aos-delay="250">
+        I have acquired several skills in web development during the 4th semester in web programming course and further deepened my knowledge in the 6th semester by participating in the Kampus Merdeka independent study program on full-stack development at PT Yunta Mandiri.
+      </p>
+      <div class="container">
+<div class="row text-center">
+        <div class="col-lg-4 col-sm-4 mt-5" data-aos="fade-right" data-aos-delay="250">
+          <div class="skill theme-shadow p-lg-5 p-4">
+            <div class="icon">
+             <i class="fa fa-code fa-5x"></i> 
+            </div>
+          <h4 class="mt-3">Frontend</h4>
+          <ul class="list-unstyled">
+            <li class="mb-2">HTML</li>
+            <li class="mb-2">CSS</li>
+            <li class="mb-2">Bootstrap Framework</li>
+          </ul> 
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-4 mt-5" data-aos="zoom-in-up" data-aos-delay="250">
+          <div class="skill theme-shadow p-lg-5 p-4">
+            <div class="icon">
+             <i class="fa fa-database fa-5x"></i> 
+            </div>
+          <h4 class="mt-3">Backend</h4>
+          <ul class="list-unstyled">
+            <li class="mb-2">PHP</li>
+            <li class="mb-2">MYSQL</li>
+            <li class="mb-2">Laravel Framework</li>
+          </ul> 
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-4 mt-5" data-aos="fade-left" data-aos-delay="250">
+          <div class="skill theme-shadow p-lg-5 p-4">
+            <div class="icon">
+             <i class="fa fa-cogs fa-5x"></i> 
+            </div>
+          <h4 class="mt-3">Other</h4>
+          <ul class="list-unstyled">
+            <li class="mb-2">Figma</li>
+            <li class="mb-2">Canva</li>
+            <li class="mb-2">Management Work Trello</li>
+          </ul> 
+          </div>
+        </div>
+      </div>
+      </div>
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 310">
+        <path
+          fill="#1a3765"
+          fill-opacity="1"
+          d="M0,192L120,192C240,192,480,192,720,176C960,160,1200,128,1320,112L1440,96L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- akhir section about -->
+
+    <!-- section my project -->
+
+    <section class="Project mt-0" id="project"data-aos="fade-down" >
+      <div class="row text-center" >
+        <div class="col-md">
+          <h2 class="text-light">FEATURED PROJECT</h2>
+        </div>
+      </div>
+      <div class="row pt-4 text-center m-3">
+        <div class="col-md-4 mt-3"data-aos="fade-right" data-aos-delay="300">
+          <div class="card" >
+            <img
+              src="image/sistemdatapegawai.png"
+              class="card-img-top"
+              alt="..."
+              width="200"
+              height="200"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Yunta's Employee Data System</h5>
+              <p class="card-text" style="text-align: left !important;  overflow-y: auto; max-height: 100px;">
+                Yunta's Employee Data System is an advanced web application built using the Laravel framework. Laravel, known for its elegant syntax and robust features, powers this system to ensure high performance, security, and ease of maintenance.
+              </p>
+              <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mt-3"data-aos="zoom-in" data-aos-delay="300">
+          <div class="card" >
+            <img
+              src="image/data _barang.png"
+              class="card-img-top"
+              alt="..."
+              width="200"
+              height="200"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Inventory Management System</h5>
+              <p class="card-text" style="text-align: left !important; overflow-y: auto; max-height: 100px;" >
+                An Inventory Management System developed with PHP is designed 
+                to streamline the process of tracking and managing stock levels of goods within an organization.
+                By implementing an Inventory Management System with PHP, businesses can achieve greater control over their inventory operations, 
+                 and enhance overall productivity and profitability.
+           </p>
+             
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mt-3" data-aos="fade-left" data-aos-delay="300">
+          <div class="card" >
+            <img
+              src="image/warung_makan.png"
+              class="card-img-top"
+              alt="..."
+              width="200"
+              height="200"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Dine in Ordering</h5>
+              <p class="card-text" style="text-align: left !important; overflow-y: auto; max-height: 100px;">
+                A web-based application designed to streamline the dining experience 
+                by enabling customers to order food and beverages directly from their 
+                table without the need for a traditional relational database system like MySQL.
+              </p>
+              <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Section My Project -->
+
+    <!-- section contact me -->
+    <section class="contact bg-light" id="contact">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8">
+            <h2
+              class="text-center mb-4 mt-5 text-uppercase"
+              style="color: #1a3765"
+              data-aos="zoom-out-down" data-aos-delay="500"
+            >
+              Contact Me
+            </h2>
+            <div class="contact-form text-light pb-5 rounded-2" data-aos="fade-up" data-aos-delay="250">
+              <form
+              action="https://api.web3forms.com/submit" method="POST"
+              >
+              <input type="hidden" name="access_key" value="1aefa224-ba98-4f6f-8dfc-30d383d7daea">
+                <div class="mb-3">
+                  <label for="name" class="form-label">Name</label>
+                  <input type="text" class="form-control" id="name" name="name" required />
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">Email</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    name="email"
+                    required
+                  />
+                </div>
+                
+                <div class="mb-3">
+                  <label for="message" class="form-label">Message</label>
+                  <textarea
+                    class="form-control"
+                    id="message"
+                    rows="4"
+                    name="message"
+                    required
+                  ></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary float-end">
+                  Send Message
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- akhir section contact me -->
+
+    <!-- Footer -->
+    <footer class="footer" >
+      <h4 class="text-center text-uppercase ">More Information About Me</h4>
+      <div class="row text-center mb-5 mt-2">
+        <ul class="info list-unstyled d-flex align-items-center justify-content-center pt-5">
+          <li><a href="https://github.com/AriaZiru" class="github-link"> <i class="fa fa-github fa-3x pe-3" aria-hidden="true"></a></i></li>
+          <li><a href="https://www.instagram.com/aryadil_v2/" class="instagram-link"> <i class="fa fa-instagram fa-3x pe-3" aria-hidden="true"></i></a></li>
+          <li><a href="https://www.facebook.com/yadil.diangka" class="facebook-link"> <i class="fa fa-facebook fa-3x pe-3" aria-hidden="true"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/aryadil-diangka/" class="linkedin-link"> <i class="fa fa-linkedin-square fa-3x pe-3" aria-hidden="true"></i></a> </i></li>
+          <li><a href="mailto:aryadildiangka24@gmail.com" class="email-link"><i class="fa fa-envelope fa-3x pe-3" aria-hidden="true"></i></a> </li>
+          <li><a href="https://www.youtube.com/@nonameisok929" class="youtube-link"><i class="fa fa-youtube fa-3x pe-3" aria-hidden="true"></i></a></li>
+      </ul>      
+      </div>
+      <div
+        class="card-footer text-body-secondary bg-light d-flex justify-content-center"
+      >
+        <p class="text-center mt-2">
+          &copy;2024 Aryadil Diangka. All rights reserved
+        </p>
+      </div>
+    </footer>
+    <!-- Akhir footer -->
+
+    <script src="script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

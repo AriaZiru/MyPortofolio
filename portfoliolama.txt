@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Portfolio</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body style="background-color: #1a3765; z-index: 0">
+    <!-- Navbar -->
+    <header>
+      <nav class="navbar navbar-expand-lg bg-secondary-subtle fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img
+              src="image/logo_esgul.jpg"
+              class="rounded float-start"
+              alt="LOGO"
+              style="width: 50px; height: 50px; border-radius: 10px"
+            />
+          </a>
+          <div class="row justify-content-center col-sm-6 pt-2 ms-2">
+            <h2 class="text-center text-uppercase" style="color: #113946">
+              My Portfolio
+            </h2>
+          </div>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"> </span>
+          </button>
+
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div
+              class="offcanvas-header bg-secondary-subtle"
+              style="border-bottom: 1px solid black"
+            >
+              <img
+                src="portfolio.src/logo_esgul.jpg"
+                class="rounded float-start"
+                alt="LOGO"
+                style="width: 50px; height: 50px; border-radius: 10px"
+              />
+
+              <div class="">
+                <h5
+                  class="offcanvas-title ps-3 text-uppercase"
+                  id="offcanvasNavbarLabel"
+                >
+                  My Portfolio
+                </h5>
+              </div>
+
+              <button
+                type="button"
+                class="btn-close align-items-end"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+
+            <div
+              class="offcanvas-body d-flex justify-content-center bg-secondary-subtle"
+            >
+              <ul
+                class="navbar-nav d-flex justify-content-center align-items-center"
+              >
+                <li class="nav-item d-flex align-items-center p-2">
+                  <a class="nav-link" href="#Beranda">Beranda</a>
+                </li>
+                <li class="nav-item d-flex align-items-center p-2">
+                  <a class="nav-link" href="#project">Project</a>
+                </li>
+
+                <li class="nav-item d-flex align-items-center p-2">
+                  <a class="nav-link" href="#About">About</a>
+                </li>
+                <li class="nav-item d-flex align-items-center p-2">
+                  <a class="nav-link" href="#contact">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Akhir Navbar -->
+
+    <!-- section  beranda profil -->
+    <section class="Beranda text-center" id="Beranda">
+      <div class="pt-5">
+        <img
+          src="image/fotoprofil.jpg"
+          class="rounded-circle img-thubnail"
+          width="200"
+          alt="Aryadil Diangka"
+        />
+      </div>
+
+      <div class="display-4 text-light pt-3">
+        <h2>Aryadil Diangka</h2>
+        <h4>Web Developer</h4>
+        <h4>LET'S BUILD SOMETHING AMAZING TOGETHER</h4>
+      </div>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1440 310"
+        style="z-index: 0"
+      >
+        <path
+          fill="#ffffff"
+          fill-opacity="1"
+          d="M0,32L60,64C120,96,240,160,360,181.3C480,203,600,181,720,154.7C840,128,960,96,1080,90.7C1200,85,1320,107,1380,117.3L1440,128L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- akhir section beranda profil -->
+
+    <!-- section my project -->
+
+    <section class="Project mt-0" style="background-color: #ffffff; z-index: 1">
+      <div id="project" class="row text-center">
+        <div class="col-md">
+          <h2>MY PROJECT</h2>
+        </div>
+      </div>
+      <div class="row pt-4 text-center m-3">
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="image/sistemdatapegawai.png"
+              class="card-img-top"
+              alt="..."
+              width="300"
+              height="200"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Yunta Employee data system</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="image/data _barang.png"
+              class="card-img-top"
+              alt="..."
+              width="300"
+              height="200"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Simple Inventory System</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="image/warung_makan.png"
+              class="card-img-top"
+              alt="..."
+              width="300"
+              height="200"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Food Order on table</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Section My Project -->
+
+    <!-- Section about -->
+    <section class="about mt-0" style="background-color: orangered; z-index: 1">
+      <h2 class="text-uppercase text-center mt-5">About</h2>
+      <div class="row text-center pt-4" id="About">
+        <div class="col-md-6">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+            autem molestiae illum aliquid quod voluptatibus magnam sit? Aliquam,
+            itaque dolores.
+          </p>
+        </div>
+        <div class="col-md-6">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+            autem molestiae illum aliquid quod voluptatibus magnam sit? Aliquam,
+            itaque dolores.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- akhir section about -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
